@@ -6,5 +6,122 @@
 
 body
 {
-    background-color: #f7e9e3;
+    background-color: #005792;
+}
+
+.logo
+{
+    background-color: white;
+    padding: 10px;
+}
+
+.logo img
+{
+    height: 150px;
+    width: 175px;
+    top: 50%;
+    left: 0%;
+    transform:translate(375%,5%);
+    -webkit-transform:translate(375%,5%);
+    -moz-transform:translate(375%,5%);
+    -ms-transform:translate(375%,5%);
+    -o-transform:translate(375%,5%);
+}
+
+.navbar 
+{
+    height: 45px;
+    width: 100%; 
+    background-color: #edf9fc;
+}
+
+.navbar ul
+{
+    text-align: center;
+    margin-left: 20px;
+}
+
+.navbar li
+{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 50px;
+    cursor: pointer;
+}
+
+/*Latest Collection*/
+
+.latest
+{
+    height: 90vh;
+    width: 100%;
+    background-color: white; 
+}
+
+.latest-content
+{
+    background-color: slategray;
+    height: 90vh;
+}
+
+.latest-right
+{
+    background-image: url(img/dog.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 90vh;
+}
+
+.latest-content h1
+{
+    font-family: 'Playfair Display', serif; 
+    font-size: 55px;
+    color: white; 
+    text-align: center; 
+    padding-top: 100px;
+}
+
+.latest-content h2
+{
+    font-family: 'Poppins', serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.latest-content h3 
+{
+    font-family: 'Poppins', serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;   
+}
+
+.latest-content button
+{
+    height: 75px;
+    width: 200px;
+    border: 2px solid white; 
+    background-color: transparent;
+    font-family: 'Poppins', serif; 
+    font-size: 30px;
+    font-weight: bold;
+    color: white; 
+    margin: 50px 0 0 275px; 
+}
+
+.latest-content button:hover
+{
+    color: darkslategrey;
+    border: 2.5px solid slategray; 
+    background-color: white;
+    transition:.5s ease-in;
+    -webkit-transition:.5s ease-in;
+    -moz-transition:.5s ease-in;
+    -ms-transition:.5s ease-in;
+    -o-transition:.5s ease-in;
 }
