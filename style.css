@@ -6,7 +6,7 @@
 
 body
 {
-    background-color: #005792;
+    background-color: ivory;
 }
 
 .logo
@@ -124,4 +124,142 @@ body
     -moz-transition:.5s ease-in;
     -ms-transition:.5s ease-in;
     -o-transition:.5s ease-in;
+}
+
+/*Fall Collection*/
+
+.fall
+{
+    height: 105vh;
+    width: 100%;
+}
+
+.fall-container
+{
+    margin-top: 50px;
+    display: inline-flex; 
+}
+
+.fall-container .column 
+{
+    border: 2px solid transparent;
+    padding: 0 4px;
+    margin: 50px 0 0 8px;
+    height: 500px;
+    width: 650px;
+    top: 50%;
+    left: 50%;
+    transform: translate(13%, 10%);
+    -webkit-transform: translate(13%, 10%);
+    -moz-transform: translate(13%, 10%);
+    -ms-transform: translate(13%, 10%);
+    -o-transform: translate(13%, 10%);
+}
+
+#column2
+{
+    background-color: burlywood;
+    background-position-y: top;
+}
+
+#column1
+{
+    background-image: url(img/dog32.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.column .text-block
+{
+    position: absolute;
+    margin-top: 10px;
+    height: 300px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.70;
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+    padding: 20px;
+}
+
+.column .text-block h1
+{
+    font-family: 'Playfair Display', serif; 
+    font-size: 35px; 
+    text-align: center; 
+    margin: 30px;
+    text-shadow: 1px black;
+}
+
+.column .text-block p
+{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20px; 
+    font-style: oblique; 
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px black; 
+}
+
+.fall-button button
+{
+    background-color: slategray;
+    color: white;
+    border: 2px solid transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    height: 60px;
+    width: 250px;
+    margin: 30px;
+    top: 0;
+    left: 0;
+    transform:translate(67%, 500%);
+    -webkit-transform:translate(67%, 500%);
+    -moz-transform:translate(67%, 500%);
+    -ms-transform:translate(67%, 500%);
+    -o-transform:translate(67%, 500%);
+}
+
+.fall-button button:hover
+{
+    background-color: ivory;
+    color: black;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+#column2 h1
+{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 75px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    transform:translate(0%,35%);
+    -webkit-transform:translate(0%,35%);
+    -moz-transform:translate(0%,35%);
+    -ms-transform:translate(0%,35%);
+    -o-transform:translate(0%,35%);
+}
+
+#column2:hover
+{
+    background-color: rgb(253, 215, 165);
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
 }
