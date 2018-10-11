@@ -205,6 +205,7 @@ body
     font-weight: bold;
     text-align: center;
     text-shadow: 1px black; 
+    margin: 20px;
 }
 
 .fall-button button
@@ -218,14 +219,14 @@ body
     text-align: center;
     height: 60px;
     width: 250px;
-    margin: 30px;
+    margin: 40px;
     top: 0;
     left: 0;
-    transform:translate(67%, 500%);
-    -webkit-transform:translate(67%, 500%);
-    -moz-transform:translate(67%, 500%);
-    -ms-transform:translate(67%, 500%);
-    -o-transform:translate(67%, 500%);
+    transform:translate(62%, 500%);
+    -webkit-transform:translate(62%, 500%);
+    -moz-transform:translate(62%, 500%);
+    -ms-transform:translate(62%, 500%);
+    -o-transform:translate(62%, 500%);
 }
 
 .fall-button button:hover
@@ -262,4 +263,189 @@ body
     -moz-transition: .5s ease-in-out;
     -ms-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
+}
+
+/* Products Section */
+
+.products {
+    height: 100vh;
+    width: 100%;
+    background-color: #edf9fc;
+}
+
+.product-container {
+    display: inline-flex;
+    padding: 20px;
+    margin: 80px 70px;
+}
+
+.card {
+    width: auto;
+    height: 300px;
+    background-color: #edf9fc;
+}
+
+.card img
+{
+    height: 300px;
+    width: auto;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-card {
+    margin: 15px;
+    width: 425px;
+    height: 500px;
+    background-color: #edf9fc;
+}
+
+.product-card:hover {
+    box-shadow: 0 15px 20px lightgray;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.container h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Footer Section */
+
+.footer 
+{
+    height: 50vh;
+    width: 100%; 
+    background-color: slategray;
+    margin: 0 auto;
+}
+
+.footer-column
+{
+   display: inline-block;
+   column-count: 4;
+}
+
+.first-row 
+{
+    margin-left: -250px;
+}
+
+.first-row h1
+{
+    font-family: 'Playfair Display', serif; 
+    font-size: 40px;
+    color: white;
+}
+
+.first-row h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+}
+
+input
+{
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: slategray;
+    border: .5px solid white; 
+}
+
+::placeholder
+{
+    color: white; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+button
+{
+    height: 42px;
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: slategray;
+    border: 2px solid white; 
+    vertical-align: middle;
+}
+
+button:hover
+{
+    background-color: ivory;
+    color: darkslategray;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.row h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.row h4 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+footer
+{
+    top: 0;
+    left: 0;
+    transform:translate(20%,50%);
+    -moz-transform:translate(20%,50%);
+    -ms-transform:translate(20%,50%);
+    -o-transform:translate(20%,50%);
+    -webkit-transform:translate(20%,50%);
+}
+
+.brand h1
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: white;
+    top: 0;
+    left: 0;
+    transform:translate(23%,300%);
+    -webkit-transform:translate(23%,300%);
+    -moz-transform:translate(23%,300%);
+    -ms-transform:translate(23%,300%);
+    -o-transform:translate(23%,300%);
 }
