@@ -1,12 +1,12 @@
 *
 {
     margin: 0;
-    padding: 0;
+   padding: 0;
 }
 
 body
 {
-    background-color: ivory;
+    background-color: black;
 }
 
 .logo
@@ -15,17 +15,23 @@ body
     padding: 10px;
 }
 
+header
+{
+    height: 30vh;
+    width: 100%;
+}
+
 .logo img
 {
     height: 150px;
     width: 175px;
-    top: 50%;
-    left: 0%;
-    transform:translate(375%,5%);
-    -webkit-transform:translate(375%,5%);
-    -moz-transform:translate(375%,5%);
-    -ms-transform:translate(375%,5%);
-    -o-transform:translate(375%,5%);
+    top: 0;
+    left: 0;
+    transform:translate(380%,5%);
+    -webkit-transform:translate(380%,5%);
+    -moz-transform:translate(380%,5%);
+    -ms-transform:translate(380%,5%);
+    -o-transform:translate(380%,5%);
 }
 
 .navbar 
@@ -37,8 +43,7 @@ body
 
 .navbar ul
 {
-    text-align: center;
-    margin-left: 20px;
+    text-align: center; 
 }
 
 .navbar li
@@ -132,6 +137,7 @@ body
 {
     height: 105vh;
     width: 100%;
+    background-color: ivory;
 }
 
 .fall-container
@@ -275,8 +281,8 @@ body
 
 .product-container {
     display: inline-flex;
-    padding: 20px;
-    margin: 80px 70px;
+    padding-top: 40px;
+    margin: 50px 75px;
 }
 
 .card {
@@ -342,33 +348,31 @@ body
     height: 50vh;
     width: 100%; 
     background-color: slategray;
-    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0;
 }
 
 .footer-column
 {
    display: inline-block;
    column-count: 4;
+   margin: 80px 0  0 50px;
+   padding-left: 15px;
 }
 
-.first-row 
-{
-    margin-left: -250px;
-}
-
-.first-row h1
+.row h1
 {
     font-family: 'Playfair Display', serif; 
     font-size: 40px;
     color: white;
 }
 
-.first-row h3
+.row h3
 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: white;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 input
@@ -378,6 +382,13 @@ input
     margin-top: 10px;
     background-color: slategray;
     border: .5px solid white; 
+}
+
+input:focus
+{
+    color: ivory;
+    font-family: 'Poppins', serif;
+    font-size: 20px;
 }
 
 ::placeholder
@@ -390,10 +401,10 @@ input
 button
 {
     height: 42px;
-    width: 150px;
+    width: 100px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     background-color: slategray;
     border: 2px solid white; 
@@ -411,7 +422,13 @@ button:hover
     -o-transition: .5s ease-in-out;
 }
 
-.row h2
+.row1
+{
+    margin-top: 25px;
+    padding: 35px;
+}
+
+.row1 h2
 {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -419,33 +436,22 @@ button:hover
     color: white;
 }
 
-.row h4 {
+.row1 h4 {
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 18px;
 }
 
-footer
-{
-    top: 0;
-    left: 0;
-    transform:translate(20%,50%);
-    -moz-transform:translate(20%,50%);
-    -ms-transform:translate(20%,50%);
-    -o-transform:translate(20%,50%);
-    -webkit-transform:translate(20%,50%);
+.brand 
+{   
+    background-color: slategray;
 }
 
 .brand h1
 {
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
-    top: 0;
-    left: 0;
-    transform:translate(23%,300%);
-    -webkit-transform:translate(23%,300%);
-    -moz-transform:translate(23%,300%);
-    -ms-transform:translate(23%,300%);
-    -o-transform:translate(23%,300%);
+    text-align: center;
+    padding: 10px;
 }
