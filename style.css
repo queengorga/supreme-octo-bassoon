@@ -74,6 +74,17 @@
     height: 90vh;
 }
 
+.latest-content a
+{
+    text-decoration: none; 
+    color: inherit;
+}
+
+.latest-content a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
 .latest-right
 {
     background-image: url(img/dog.jpg); 
