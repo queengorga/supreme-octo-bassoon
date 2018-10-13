@@ -4,22 +4,13 @@
    padding: 0;
 }
 
-body
-{
-    background-color: black;
-}
-
 .logo
 {
     background-color: white;
     padding: 10px;
 }
 
-header
-{
-    height: 30vh;
-    width: 100%;
-}
+
 
 .logo img
 {
@@ -36,7 +27,7 @@ header
 
 .navbar 
 {
-    height: 45px;
+    height: 6vh;
     width: 100%; 
     background-color: #edf9fc;
 }
@@ -52,8 +43,20 @@ header
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     font-weight: bolder;
-    padding: 50px;
+    padding: 30px;
     cursor: pointer;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar a:visited
+{
+    text-decoration: none;
+    color: inherit;
 }
 
 /*Latest Collection*/
@@ -274,7 +277,7 @@ header
 /* Products Section */
 
 .products {
-    height: 100vh;
+    height: 125vh;
     width: 100%;
     background-color: #edf9fc;
 }
@@ -310,7 +313,7 @@ header
 .product-card {
     margin: 15px;
     width: 425px;
-    height: 500px;
+    height: 550px;
     background-color: #edf9fc;
 }
 
@@ -442,16 +445,359 @@ button:hover
     font-size: 18px;
 }
 
-.brand 
+.footer-brand 
 {   
     background-color: slategray;
 }
 
-.brand h1
+.footer-brand h1
 {
     font-family: 'Playfair Display', serif;
     font-size: 25px;
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+/* SHOP Page */
+
+.shop {
+    height: 80vh;
+    width: 100%;
+    background-color: slategray;
+}
+
+.shop-container {
+    display: inline-flex;
+}
+
+.shop-container .shop-column {
+    margin: 10px;
+    height: 550px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, 10%);
+    -webkit-transform: translate(10%, 10%);
+    -moz-transform: translate(10%, 10%);
+    -ms-transform: translate(10%, 10%);
+    -o-transform: translate(10%, 10%);
+}
+
+#shop-column2 {
+    background-color: ivory;
+    width: 500px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-15%, 27%);
+    -webkit-transform: translate(-15%, 27%);
+    -moz-transform: translate(-15%, 27%);
+    -ms-transform: translate(-15%, 27%);
+    -o-transform: translate(-15%, 27%);
+}
+
+#shop-column1 
+{
+    background-image: url(img/dog18.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 950px;
+    height: 450px;
+}
+
+.shop-column h1
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 25px;
+}
+
+.shop-column li
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px auto;
+    padding: 10px;
+    text-decoration: none; 
+    list-style: none;
+    border: 2px solid slategray;
+    height: 30px;
+    width: 250px;
+    vertical-align: -webkit-baseline-middle; 
+}
+
+.shop-column li:hover
+{
+    background-color: slategray;
+    color: white;
+    transition:.5s ease;
+    -webkit-transition:.5s ease;
+    -moz-transition:.5s ease;
+    -ms-transition:.5s ease;
+    -o-transition:.5s ease;
+}
+
+.shop-block a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.shop-block a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* City Slicker Section*/
+
+.city
+{
+    height: 165vh;
+    width: 100%;
+    background-color: white;
+}
+
+.city-container {
+    display: inline-flex;
+    padding: 20px;
+    margin: 20px 0 0 50px;
+}
+
+.slicker-container .love
+{
+    height: 35px;
+    widows: 35px;
+    padding-top: 5px;
+}
+
+.slicker-card {
+    width: auto;
+    height: 300px;
+}
+
+.slicker-card img {
+    height: 300px;
+    width: auto;
+}
+
+.slicker-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.slicker-card a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.city-card {
+    margin: 15px;
+    width: 425px;
+    height: 485px;
+    background-color: transparent;
+}
+
+.slicker-container {
+    padding: 2px 16px;
+}
+
+.slicker-container h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.slicker-container h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.slicker-container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.city-card:hover {
+    box-shadow: 0 15px 20px lightgray;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+/* Home Section */
+
+.home {
+    height: 175vh;
+    width: 100%;
+    background-color: #edf9fc;
+}
+
+.home-container {
+    display: inline-flex;
+    padding: 20px;
+    margin: 20px 0 0 50px;
+}
+
+.homebody-container .love {
+    height: 35px;
+    widows: 35px;
+    padding-top: 5px;
+}
+
+.homebody-card {
+    width: auto;
+    height: 350px;
+}
+
+.homebody-card img {
+    height: 350px;
+    width: auto;
+}
+
+.homebody-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.homebody-card a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-card {
+    margin: 15px;
+    width: 425px;
+    height: 535px;
+    background-color: #edf9fc;
+}
+
+.homebody-container {
+    padding: 2px 16px;
+}
+
+.homebody-container h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.homebody-container h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.homebody-container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.home-card:hover {
+    box-shadow: 0 15px 20px lightgray;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+/*Trailblazer Section*/
+
+.trailblazer {
+    height: 175vh;
+    width: 100%;
+    background-color: white;
+}
+
+.trail-container {
+    display: inline-flex;
+    padding: 20px;
+    margin: 20px 0 0 50px;
+}
+
+.blazer-container .love {
+    height: 35px;
+    widows: 35px;
+    padding-top: 5px;
+}
+
+.blazer-card {
+    width: auto;
+    height: 350px;
+}
+
+.blazer-card img {
+    height: 350px;
+    width: auto;
+}
+
+.blazer-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.blazer-card a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.trail-card {
+    margin: 15px;
+    width: 425px;
+    height: 535px;
+    background-color: white;
+}
+
+.blazer-container {
+    padding: 2px 16px;
+}
+
+.blazer-container h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.blazer-container h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.blazer-container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.trail-card:hover {
+    box-shadow: 0 15px 20px lightgray;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
 }
