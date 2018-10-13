@@ -812,3 +812,83 @@ button:hover
     -ms-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
 }
+
+/* Size Guide Page */
+
+.size {
+    height: 105vh;
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.size-content {
+    background-color: ivory;
+    height: 115vh;
+}
+
+.size-left {
+    background-image: url(img/dog13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 115vh;
+}
+
+.size-content h1
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+}
+
+.size-content h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 50px;
+}
+
+.size-column
+{
+    width: 550px;
+    height: 850px;
+    column-count: 2;
+    column-width: 20px;
+    column-span: 20px;
+    margin: 25px auto;
+}
+
+.size-column li
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    list-style: none;
+    padding: 10px;
+}
+
+.size-icon
+{
+    padding-top: 10px;
+}
+
+.size-icon p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.size-icon img
+{
+    height: 50px; 
+    width: 60px;
+}
+
+.size-description
+{
+    padding-top: 5px;
+}
