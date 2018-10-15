@@ -892,3 +892,213 @@ button:hover
 {
     padding-top: 5px;
 }
+
+/* Limited Page */
+
+.limited
+{
+    height: 90vh;
+    width: 100%;
+    background-image: url(img/dog31.jpg);
+    background-size: cover;
+    background-position-x: bottom;
+}
+
+.limited-header h1
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    color: white;
+    text-shadow: 1px 1px gray;
+    padding-top: 150px;
+    margin-left: 80px;
+}
+
+.limited-header p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: justify;
+    color: white; 
+    text-shadow: 1px 1px gray;
+    padding-top: 20px;
+    margin: 0 0 20px 80px;
+}
+
+.limited-header button
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: slategray;
+    height: 60px;
+    width: 175px;
+    border: none; 
+    margin-left: 80px;
+}
+
+.limited-header button:hover
+{
+    border: 2px solid slategray;
+    background-color: ivory;
+    color: slategray;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+/* Autumn Collection Section */
+
+.autumn-collection
+{
+    height: 470vh;
+    width: 100%; 
+    background-color: ivory;
+    margin-bottom: -40px;
+}
+
+.autumn-container
+{
+    height: 400px;
+    width: 1050px;
+    column-count: 2;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+.autumn-container img
+{
+    height: 400px;
+    width: 550px;
+    float: left;
+}
+
+.autumn-right
+{
+    float: right;
+}
+
+.autumn-left
+{
+    float: left;
+}
+
+.autumn-right h1
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    color: darkslategray;
+    text-align: right;
+    margin: 20px 0 20px 0;
+    padding-top: 50px;
+}
+
+.autumn-right p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: darkslategray;
+    text-align: right;
+    margin: 20px 0 10px 10px;
+}
+
+.autumn-right button
+{
+    float: right;
+    height: 50px;
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.autumn-right button:hover
+{
+    background-color: ivory;
+    color: darkslategray;
+    border: 2px solid darkslategray;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.autumn-right h1
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    color: darkslategray;
+    text-align: right;
+    margin: 20px 0 20px 0;
+    padding-top: 50px;
+}
+
+.autumn-right p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: darkslategray;
+    text-align: right;
+    margin: 20px 0 10px 10px;
+}
+
+.autumn-right button
+{
+    float: right;
+    height: 50px;
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.autumn-right button:hover
+{
+    background-color: ivory;
+    color: darkslategray;
+    border: 2px solid darkslategray;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.autumn-left h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    color: darkslategray;
+    text-align: left;
+    margin: 20px 0 20px 0;
+    padding-top: 50px;
+}
+
+.autumn-left p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: darkslategray;
+    text-align: left;
+    margin: 20px 0 10px 10px;
+}
+
+.autumn-left button {
+    float: left;
+    height: 50px;
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.autumn-left button:hover {
+    background-color: ivory;
+    color: darkslategray;
+    border: 2px solid darkslategray;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
