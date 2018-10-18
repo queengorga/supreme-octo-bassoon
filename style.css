@@ -389,7 +389,7 @@
     margin-top: 10px;
 }
 
-input
+.row input
 {
     height: 40px;
     width: 200px;
@@ -398,14 +398,14 @@ input
     border: .5px solid white; 
 }
 
-input:focus
+.row input:focus
 {
     color: ivory;
     font-family: 'Poppins', serif;
     font-size: 20px;
 }
 
-::placeholder
+.row input::placeholder
 {
     color: white; 
     font-family: 'Poppins', sans-serif;
@@ -1227,4 +1227,134 @@ hr
     font-style: italic;
     text-align: center;
     padding: 20px 375px;
+}
+
+/* Contact Page*/
+
+.contact {
+    height: 140vh;
+    margin-bottom: -40px;
+}
+
+.contact-left 
+{
+    background-color: ivory;
+    height: 140vh;
+}
+
+.contact-right {
+    background-image: url(img/dog35.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140vh;
+}
+
+.contact-row
+{
+    display: inline-flex;
+    flex-flow: column;
+}
+.contact-row h2 
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 50px 0 5px;
+    color: darkslategray;
+    text-align: justify;
+}
+
+.contact-row h4 
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 50px 0 75px;
+    color: darkslategray;
+    text-align: justify;
+}
+
+.contact-left h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    text-align: left;
+    color: darkslategray;
+    padding: 80px 0 20px 80px;
+}
+
+.text-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: darkslategray;
+    padding: 25px 0 20px 80px;
+}
+
+.text-content form
+{
+    margin: 0 80px;
+}
+ 
+.text-content form ::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding-left: 5px;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+.contact-form input[type=text],
+textarea {
+    width: 85%;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    resize: vertical;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color: white;
+    color: darkslategray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+ 
+.contact-form input[type=text]:hover
+{
+    background-color: #edf9fc; 
+}
+
+.contact-form textarea:hover
+{
+    background-color: #edf9fc;
+}
+
+.contact-form input[type=submit] {
+    background-color: slategray;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+}
+
+.contact-form input[type=submit]:hover {
+    background-color:transparent;
+    color: darkslategray;
+    border: 1.5px solid darkslategray;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
 }
