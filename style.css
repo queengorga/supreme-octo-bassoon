@@ -4,6 +4,23 @@
    padding: 0;
 }
 
+.shipping-bar
+{
+    height: 5vh;
+    width: 100%;
+    background-color: slategray;
+}
+
+.shipping-bar h4
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
 .logo
 {
     background-color: white;
@@ -1175,16 +1192,16 @@ hr
 .quality-container h5
 {
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     text-align: justify;
-    padding: 15.90px;
+    padding: 14px;
 }
 
 /*Story Section*/
 
 .story
 {
-    height: 225vh;
+    height: 240vh;
     width: 100%;
     background-color: ivory;
     margin-bottom: -50px;
@@ -1196,11 +1213,11 @@ hr
     width: 950px;
     top: 50%;
     left: 50%;
-    transform: translate(30%,10%);
-    -webkit-transform: translate(30%,10%);
-    -moz-transform: translate(30%,10%);
-    -ms-transform: translate(30%,10%);
-    -o-transform: translate(30%,10%);
+    transform: translate(30%,30%);
+    -webkit-transform: translate(30%,30%);
+    -moz-transform: translate(30%,30%);
+    -ms-transform: translate(30%,30%);
+    -o-transform: translate(30%,30%);
 }
 
 .about-container h1
@@ -1209,7 +1226,8 @@ hr
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    padding: 90px;
+    padding: 50px 0;
+    margin-top: 175px;
 }
 
 .about-container p 
@@ -1306,11 +1324,11 @@ hr
 
 .contact-form input[type=text],
 textarea {
-    width: 85%;
+    width: 90%;
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
-    margin: 20px auto;
+    margin: 10px auto;
     resize: vertical;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
