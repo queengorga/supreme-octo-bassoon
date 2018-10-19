@@ -9,7 +9,7 @@
 {
     height: 5vh;
     width: 100%;
-    background-color: slategray;
+    background-color: teal;
 }
 
 .shipping-bar h4
@@ -101,11 +101,11 @@
     width: 175px;
     top: 0;
     left: 0;
-    transform:translate(380%,5%);
-    -webkit-transform:translate(380%,5%);
-    -moz-transform:translate(380%,5%);
-    -ms-transform:translate(380%,5%);
-    -o-transform:translate(380%,5%);
+    transform:translate(378%,5%);
+    -webkit-transform:translate(378%,5%);
+    -moz-transform:translate(378%,5%);
+    -ms-transform:translate(378%,5%);
+    -o-transform:translate(378%,5%);
 }
 
 /*Navigation Bar*/
@@ -155,7 +155,7 @@
 
 .latest-content
 {
-    background-color: slategray;
+    background-color: teal;
     height: 90vh;
 }
 
@@ -220,7 +220,7 @@
 
 .latest-content button:hover
 {
-    color: darkslategrey;
+    color: teal;
     border: 2.5px solid slategray; 
     background-color: white;
     transition:.5s ease-in;
@@ -259,6 +259,17 @@
     -moz-transform: translate(13%, 10%);
     -ms-transform: translate(13%, 10%);
     -o-transform: translate(13%, 10%);
+}
+
+.fall-container a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.fall-container a:visited {
+    text-decoration: none;
+    color: inherit;
 }
 
 #column2
@@ -315,7 +326,7 @@
 
 .fall-button button
 {
-    background-color: slategray;
+    background-color: teal;
     color: white;
     border: 2px solid transparent;
     font-family: 'Poppins', sans-serif;
@@ -458,7 +469,7 @@
 {
     height: 50vh;
     width: 100%; 
-    background-color: slategray;
+    background-color: teal;
     margin-top: 40px;
     padding: 0;
 }
@@ -491,8 +502,8 @@
     height: 40px;
     width: 200px;
     margin-top: 10px;
-    background-color: slategray;
-    border: .5px solid white; 
+    background-color: teal;
+    border: 2px solid ivory; 
 }
 
 .row input:focus
@@ -511,21 +522,21 @@
 
 button
 {
-    height: 42px;
+    height: 47px;
     width: 100px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 15px;
-    color: white;
-    background-color: slategray;
-    border: 2px solid white; 
-    vertical-align: middle;
+    color: teal;
+    background-color: ivory;
+    border: 2px solid teal; 
 }
 
 button:hover
 {
-    background-color: ivory;
-    color: darkslategray;
+    background-color: teal;
+    border: 2px solid ivory;
+    color: ivory;
     transition: .5s ease-in-out;
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
@@ -555,7 +566,7 @@ button:hover
 
 .footer-brand 
 {   
-    background-color: slategray;
+    background-color: teal;
 }
 
 .footer-brand h1
@@ -572,7 +583,7 @@ button:hover
 .shop {
     height: 80vh;
     width: 100%;
-    background-color: slategray;
+    background-color: teal;
 }
 
 .shop-container {
@@ -640,7 +651,8 @@ button:hover
 
 .shop-column li:hover
 {
-    background-color: slategray;
+    background-color: teal;
+    border: transparent;
     color: white;
     transition:.5s ease;
     -webkit-transition:.5s ease;
@@ -1029,12 +1041,19 @@ button:hover
     font-size: 20px;
     text-align: center;
     color: white;
-    background-color: slategray;
+    background-color: teal;
     height: 60px;
     width: 175px;
     border: none; 
     margin-left: 80px;
 }
+
+.limited-header a, a:visited
+{
+    text-decoration: none; 
+    color: inherit;
+}
+
 
 .limited-header button:hover
 {
@@ -1110,6 +1129,8 @@ button:hover
     width: 150px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    background-color: teal;
+    color: ivory;
 }
 
 .autumn-right button:hover
@@ -1150,6 +1171,8 @@ button:hover
     width: 150px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    background-color: teal;
+    color: ivory;
 }
 
 .autumn-right button:hover
@@ -1187,6 +1210,8 @@ button:hover
     width: 150px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    background-color: teal;
+    color: ivory;
 }
 
 .autumn-left button:hover {
@@ -1399,7 +1424,7 @@ hr
     font-size: 15px;
     padding-left: 5px;
     font-weight: bold;
-    color: darkslategray;
+    color: slategray;
 }
 
 .contact-form input[type=text],
@@ -1434,7 +1459,7 @@ textarea {
 }
 
 .contact-form input[type=submit] {
-    background-color: slategray;
+    background-color: teal;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
@@ -1447,8 +1472,8 @@ textarea {
 
 .contact-form input[type=submit]:hover {
     background-color:transparent;
-    color: darkslategray;
-    border: 1.5px solid darkslategray;
+    color: teal;
+    border: 1.5px solid teal;
     cursor: pointer;
     transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
