@@ -4,6 +4,7 @@
    padding: 0;
 }
 
+/*Hello Bar - Free shipping*/
 .shipping-bar
 {
     height: 5vh;
@@ -21,6 +22,7 @@
     padding: 5px;
 }
 
+/*Search Bar*/
 .search
 {
     float: left;
@@ -46,6 +48,8 @@
     -ms-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
 }
+
+/*Social Media and Cart Icons*/
 
 .social-cart ul
 {
@@ -80,6 +84,8 @@
     color: darkslategray;
 }
 
+/*Logo*/
+
 .logo
 {
     margin-top: 50px;
@@ -101,6 +107,8 @@
     -ms-transform:translate(380%,5%);
     -o-transform:translate(380%,5%);
 }
+
+/*Navigation Bar*/
 
 .navbar 
 {
@@ -335,6 +343,18 @@
     -moz-transition: .5s ease-in-out;
     -ms-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
+}
+
+.fall-button a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.fall-button a:visited
+{
+    text-decoration: none;
+    color: inherit;
 }
 
 #column2 h1
