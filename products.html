@@ -49,7 +49,7 @@
 
     <section class="products-page">
         <div class="page-container">
-            <div class="product-slide" id="duke">
+            <div class="slide">
                 <img src="img/dukeleather.jpg" alt="">
                 <div class="product-description">
                     <h1>Duke Leather Collar</h1>
@@ -84,6 +84,51 @@
                         <h2>Kindly refer to our <a href="size.html">Size Guide Page</a> for sizing Info</h2>
                     </div>
                 </div>
+            </div>
+
+            <div class="slide" id="stewart">
+                <img src="img/stewartleather.jpg" alt="">
+                <div class="product-description">
+                    <h1>Stewart Leather Collar</h1>
+                    <p>SKU: 0143</p>
+                    <p>Color: Tan with gold buckles</p><br>
+                    <label for="size">Size:</label>
+                    <select  name="" id="size">
+                        <option value="xsmall">X-Small</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select><br><br>
+                    <label for="quantity">Quantity:</label>
+                    <select name="" id="quantity"" style="height: 30px; width: 50px;">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select><br><br>
+                    <button>Add to Cart</button>
+                    <div class="product-details">
+                        <h2>Product Description</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem blanditiis, ea doloremque cupiditate dolore molestias adipisci obcaecati inventore accusamus voluptates nobis maxime, voluptatem corrupti.</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, obcaecati.</li>
+                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet.</p>
+
+                        <h2>Kindly refer to our <a href="size.html">Size Guide Page</a> for sizing Info</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align:center">
+                <span class="number" onclick="currentSlide(1)">1</span>
+                <span class="number" onclick="currentSlide(2)">2</span>
+                <span class="number" onclick="currentSlide(3)">3</span>
+                <span class="number" onclick="currentSlide(4)">4</span>
+                <span class="number" onclick="currentSlide(5)">5</span>
             </div>
 
         </div>
@@ -130,6 +175,8 @@
         <h1>&copy 2018 The GentlePaw | Bespoke Dog Accessories</h1>
     </section>
 
+
+    <script src="slide.js"></script>
 </body>
 
 </html>

@@ -1492,7 +1492,7 @@ textarea {
 }
 
 
-.product-slide img
+.slide img
 {
     float: left;
     height: 450px;
@@ -1598,4 +1598,27 @@ select
 
 .product-details a {
    color: blue;
+}
+
+.number {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: 35px 2px;
+    background-color: teal;
+    color: ivory;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    -webkit-transition: background-color 0.6s ease;
+    -moz-transition: background-color 0.6s ease;
+    -ms-transition: background-color 0.6s ease;
+    -o-transition: background-color 0.6s ease;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
