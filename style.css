@@ -1531,7 +1531,8 @@ textarea {
 
 .product-description h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: bolder;
     margin-top: 20px;
 }
 
