@@ -1481,3 +1481,127 @@ textarea {
     -ms-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in;
 }
+
+/*Products Page*/
+.products
+{
+    height: 140vh;
+    width: 100%;
+    margin-bottom: -40px;
+    background-color: ivory;
+}
+
+.product-container
+{
+    top: 0;
+    left: 0;
+    transform: translate(8%, 0%);
+    -webkit-transform: translate(10%, 0%);
+    -moz-transform: translate(8%, 0%);
+    -ms-transform: translate(8%, 0%);
+    -o-transform: translate(8%, 0%);
+}
+
+.product-slide img
+{
+    float: left;
+    height: 450px;
+    width: 550px; 
+}
+
+.product-description
+{
+    float: right;
+    margin: 20px 80px;
+    width: 32vw;
+}
+
+.product-details p
+{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product-description h1
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.product-description h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.product-description p 
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold; 
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+select
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    border: 1px solid slategray;
+    margin-bottom: 20px;
+}
+
+.product-description label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+
+#quantity label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    width: 1px;
+}
+
+.product-description button
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 500px;
+    background-color: teal;
+    color: white; 
+}
+
+.product-description button:hover {
+    background-color: white;
+    color: teal;
+    border: 2px solid teal;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.product-details ul
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.product-details a {
+   color: blue;
+}
