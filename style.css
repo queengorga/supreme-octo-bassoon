@@ -463,121 +463,6 @@
     text-align: center;
 }
 
-/* Footer Section */
-
-.footer 
-{
-    height: 50vh;
-    width: 100%; 
-    background-color: teal;
-    margin-top: 40px;
-    padding: 0;
-}
-
-.footer-column
-{
-   display: inline-block;
-   column-count: 4;
-   margin: 80px 0  0 50px;
-   padding-left: 15px;
-}
-
-.row h1
-{
-    font-family: 'Playfair Display', serif; 
-    font-size: 40px;
-    color: white;
-}
-
-.row h3
-{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: white;
-    margin-top: 10px;
-}
-
-.row input
-{
-    height: 40px;
-    width: 200px;
-    margin-top: 10px;
-    background-color: teal;
-    border: 2px solid ivory; 
-}
-
-.row input:focus
-{
-    color: ivory;
-    font-family: 'Poppins', serif;
-    font-size: 20px;
-}
-
-.row input::placeholder
-{
-    color: white; 
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-}
-
-button
-{
-    height: 47px;
-    width: 100px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    color: teal;
-    background-color: ivory;
-    border: 2px solid teal; 
-}
-
-button:hover
-{
-    background-color: teal;
-    border: 2px solid ivory;
-    color: ivory;
-    transition: .5s ease-in-out;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -ms-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-}
-
-.row1
-{
-    margin-top: 25px;
-    padding: 35px;
-}
-
-.row1 h2
-{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    color: white;
-}
-
-.row1 h4 {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 18px;
-}
-
-.footer-brand 
-{   
-    background-color: teal;
-}
-
-.footer-brand h1
-{
-    font-family: 'Playfair Display', serif;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
 /* SHOP Page */
 
 .shop {
@@ -1656,4 +1541,122 @@ select
     -moz-transition: .5s ease-in-out;
     -ms-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
+}
+
+/* Footer Section */
+
+.footer {
+    height: 50vh;
+    width: 100%;
+    background-color: teal;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.footer-column {
+    display: inline-block;
+    column-count: 4;
+    margin: 80px 0 0 50px;
+    padding-left: 15px;
+}
+
+.row h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: white;
+}
+
+.row h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.row input {
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: teal;
+    border: 2px solid ivory;
+}
+
+.row input:focus {
+    color: ivory;
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+}
+
+.row input::placeholder {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+button {
+    height: 47px;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: teal;
+    background-color: ivory;
+    border: 2px solid teal;
+}
+
+button:hover {
+    background-color: teal;
+    border: 2px solid ivory;
+    color: ivory;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.row1 {
+    margin-top: 25px;
+    padding: 35px;
+}
+
+.row1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.row1 h4 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-brand {
+    background-color: teal;
+}
+
+.footer-brand h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.top a
+{   
+    text-decoration: none;
+    color: inherit;
+}
+
+.top p
+{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
 }
