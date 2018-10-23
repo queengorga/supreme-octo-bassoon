@@ -1145,6 +1145,17 @@ button:hover
     -o-transition: .5s ease-in-out;
 }
 
+.autumn-right a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.autumn-right a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
 .autumn-right h1
 {
     font-family: 'Playfair Display', serif;
@@ -1223,6 +1234,16 @@ button:hover
     -moz-transition: .5s ease-in-out;
     -ms-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
+}
+
+.autumn-left a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.autumn-left a:visited {
+        text-decoration: none;
+        color: inherit;
 }
 
 /*About Page*/
