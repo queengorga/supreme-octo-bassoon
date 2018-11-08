@@ -241,7 +241,7 @@
 
 .fall-container
 {
-    margin-top: 50px;
+    margin-top: 40px;
     display: inline-flex; 
 }
 
@@ -396,9 +396,10 @@
 /* Products Section */
 
 .products {
-    height: 125vh;
+    height: 108vh;
     width: 100%;
     background-color: #edf9fc;
+    margin-bottom: -50px;
 }
 
 .product-container {
