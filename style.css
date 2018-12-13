@@ -114,7 +114,7 @@
 {
     height: 5.5vh;
     width: 100%; 
-    background-color: #edf9fc;
+    background-color: lightblue;
 }
 
 .navbar ul
@@ -128,20 +128,27 @@
     font-family: 'Playfair Display', serif;
     font-size: 25px;
     font-weight: bolder;
+    color: teal;
+    text-shadow: 1px darkslategray;
     padding: 30px;
     cursor: pointer;
 }
 
-.navbar a
+.navbar a,
+.navbar a:visited
 {
     text-decoration: none;
     color: inherit;
 }
 
-.navbar a:visited
-{
-    text-decoration: none;
-    color: inherit;
+.navbar a:hover {
+    color: ivory;
+    text-shadow: 1px darkslategray;
+    transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -ms-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
 }
 
 /*Latest Collection*/
@@ -1648,6 +1655,9 @@ button:hover {
     padding: 10px;
 }
 
+.top {
+    background-color: lightblue; 
+}
 .top a
 {   
     text-decoration: none;
@@ -1660,6 +1670,6 @@ button:hover {
     font-family: 'Playfair Display', serif;
     font-size: 18px;
     font-weight: bold;
-    color: white;
-    padding-top: 10px;
+    color: darkslategray;
+    padding: 10px;
 }
