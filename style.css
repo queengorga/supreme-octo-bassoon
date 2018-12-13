@@ -1670,6 +1670,17 @@ button:hover {
     font-family: 'Playfair Display', serif;
     font-size: 18px;
     font-weight: bold;
-    color: darkslategray;
+    color: teal;
+    text-shadow: 1px darkslategray;
     padding: 10px;
+}
+
+.top p:hover {
+    color: ivory;
+    text-shadow: 1px darkslategray;
+    transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -ms-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
 }
