@@ -101,11 +101,11 @@
     width: 175px;
     top: 0;
     left: 0;
-    transform:translate(270%,5%);
-    -webkit-transform:translate(270%,5%);
-    -moz-transform:translate(270%,5%);
-    -ms-transform:translate(270%,5%);
-    -o-transform:translate(270%,5%);
+    transform:translate(272%,5%);
+    -webkit-transform:translate(272%,5%);
+    -moz-transform:translate(272%,5%);
+    -ms-transform:translate(272%,5%);
+    -o-transform:translate(272%,5%);
 }
 
 /*Navigation Bar*/
@@ -155,7 +155,7 @@
 
 .latest
 {
-    height: 90vh;
+    height: 75vh;
     width: 100%;
     background-color: white; 
 }
@@ -163,7 +163,7 @@
 .latest-content
 {
     background-color: teal;
-    height: 90vh;
+    height: 75vh;
 }
 
 .latest-content a
@@ -183,13 +183,13 @@
     background-size: cover; 
     background-repeat: no-repeat;
     background-position-y: center;
-    height: 90vh;
+    height: 75vh;
 }
 
 .latest-content h1
 {
     font-family: 'Playfair Display', serif; 
-    font-size: 55px;
+    font-size: 40px;
     color: white; 
     text-align: center; 
     padding-top: 100px;
@@ -198,16 +198,16 @@
 .latest-content h2
 {
     font-family: 'Poppins', serif;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     text-align: center;
-    padding: 40px;
+    padding: 20px 30px;
 }
 
 .latest-content h3 
 {
     font-family: 'Poppins', serif;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     text-align: center;   
 }
