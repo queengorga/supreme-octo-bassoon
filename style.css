@@ -88,7 +88,7 @@
 
 .logo
 {
-    margin-top: 50px;
+    margin-top: -5px;
     background-color: white;
     padding: 10px;
 }
@@ -101,11 +101,11 @@
     width: 175px;
     top: 0;
     left: 0;
-    transform:translate(378%,5%);
-    -webkit-transform:translate(378%,5%);
-    -moz-transform:translate(378%,5%);
-    -ms-transform:translate(378%,5%);
-    -o-transform:translate(378%,5%);
+    transform:translate(270%,5%);
+    -webkit-transform:translate(270%,5%);
+    -moz-transform:translate(270%,5%);
+    -ms-transform:translate(270%,5%);
+    -o-transform:translate(270%,5%);
 }
 
 /*Navigation Bar*/
