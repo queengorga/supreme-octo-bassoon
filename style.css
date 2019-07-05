@@ -15,7 +15,7 @@
 .shipping-bar h4
 {
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: white;
@@ -101,18 +101,18 @@
     width: 175px;
     top: 0;
     left: 0;
-    transform:translate(272%,5%);
-    -webkit-transform:translate(272%,5%);
-    -moz-transform:translate(272%,5%);
-    -ms-transform:translate(272%,5%);
-    -o-transform:translate(272%,5%);
+    transform:translate(382%,5%);
+    -webkit-transform:translate(382%,5%);
+    -moz-transform:translate(382%,5%);
+    -ms-transform:translate(382%,5%);
+    -o-transform:translate(382%,5%);
 }
 
 /*Navigation Bar*/
 
 .navbar 
 {
-    height: 5.5vh;
+    height: 4vh;
     width: 100%; 
     background-color: lightblue;
 }
@@ -126,7 +126,7 @@
 {
     display: inline;
     font-family: 'Playfair Display', serif;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bolder;
     color: teal;
     text-shadow: 1px darkslategray;
