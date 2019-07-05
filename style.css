@@ -1558,7 +1558,7 @@ select
 /* Footer Section */
 
 .footer {
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     background-color: teal;
     margin-top: 20px;
@@ -1568,8 +1568,8 @@ select
 .footer-column {
     display: inline-flex;
     column-count: 4;
-    margin: 20px 0 0 50px;
-    padding-left: 15px;
+    margin: 20px 0 0 60px;
+    padding-left: 25px;
 }
 
 .row h1 {
@@ -1653,10 +1653,10 @@ button:hover {
 
 .footer-brand h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 25px;
+    font-size: 18px;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 .top {
