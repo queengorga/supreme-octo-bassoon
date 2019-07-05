@@ -915,8 +915,8 @@
     font-size: 55px;
     color: white;
     text-shadow: 1px 1px gray;
-    padding-top: 150px;
-    margin-left: 80px;
+    padding-top: 250px;
+    margin-left: 150px;
 }
 
 .limited-header p
@@ -928,7 +928,7 @@
     color: white; 
     text-shadow: 1px 1px gray;
     padding-top: 20px;
-    margin: 0 0 20px 80px;
+    margin: 0 0 20px 155px;
 }
 
 .limited-header button
@@ -941,7 +941,7 @@
     height: 60px;
     width: 175px;
     border: none; 
-    margin-left: 80px;
+    margin-left: 150px;
 }
 
 .limited-header a, a:visited
@@ -967,7 +967,7 @@
 
 .autumn-collection
 {
-    height: 470vh;
+    height: 360vh;
     width: 100%; 
     background-color: ivory;
     margin-bottom: -40px;
