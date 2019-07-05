@@ -821,7 +821,7 @@
 /* Size Guide Page */
 
 .size {
-    height: 105vh;
+    height: 100vh;
     width: 100%;
     background-color: white;
     margin: 0 auto;
@@ -829,7 +829,7 @@
 
 .size-content {
     background-color: ivory;
-    height: 115vh;
+    height: 100vh;
 }
 
 .size-left {
@@ -837,7 +837,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
-    height: 115vh;
+    height: 102.15vh;
 }
 
 .size-content h1
@@ -845,7 +845,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     text-align: center;
-    padding: 40px;
+    padding-top: 100px;
 }
 
 .size-content h4 {
@@ -864,7 +864,7 @@
     column-count: 2;
     column-width: 20px;
     column-span: 20px;
-    margin: 25px auto;
+    margin: 50px auto;
 }
 
 .size-column li
