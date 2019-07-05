@@ -1147,7 +1147,7 @@
 
 .about-header
 {
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     background-color: ivory;
 }
@@ -1181,7 +1181,7 @@ hr
 
 .quality
 {
-    height: 50vh;
+    height: 35vh;
     width: 100%; 
     background-color: ivory; 
 }
@@ -1200,9 +1200,9 @@ hr
 
 .quality-container img
 {
-    height: 40px;
-    width: 40px;
-    margin: 0 0 20px 200px;
+    height: 50px;
+    width: 50px;
+    margin: 0 0 20px 255px;
 }
 
 .quality-container h3
@@ -1224,7 +1224,7 @@ hr
 
 .story
 {
-    height: 240vh;
+    height: 170vh;
     width: 100%;
     background-color: ivory;
     margin-bottom: -50px;
@@ -1234,13 +1234,11 @@ hr
 {
     height: 550px;
     width: 950px;
-    top: 50%;
-    left: 50%;
-    transform: translate(30%,30%);
-    -webkit-transform: translate(30%,30%);
-    -moz-transform: translate(30%,30%);
-    -ms-transform: translate(30%,30%);
-    -o-transform: translate(30%,30%);
+    transform: translate(50%,30%);
+    -webkit-transform: translate(50%,30%);
+    -moz-transform: translate(50%,30%);
+    -ms-transform: translate(50%,30%);
+    -o-transform: translate(50%,30%);
 }
 
 .about-container h1
