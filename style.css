@@ -189,19 +189,19 @@
 .latest-content h1
 {
     font-family: 'Playfair Display', serif; 
-    font-size: 40px;
+    font-size: 45px;
     color: white; 
     text-align: center; 
-    padding-top: 100px;
+    padding-top: 125px;
 }
 
 .latest-content h2
 {
     font-family: 'Poppins', serif;
-    font-size: 25px;
+    font-size: 27px;
     color: white;
     text-align: center;
-    padding: 20px 30px;
+    margin: 50px 50px 40px 50px;
 }
 
 .latest-content h3 
@@ -222,7 +222,7 @@
     font-size: 30px;
     font-weight: bold;
     color: white; 
-    margin: 50px 0 0 275px; 
+    margin: 50px 0 0 365px; 
 }
 
 .latest-content button:hover
