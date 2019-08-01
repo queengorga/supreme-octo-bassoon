@@ -997,7 +997,7 @@
 
 .autumn-collection
 {
-    height: 360vh;
+    height: 400vh;
     width: 100%; 
     background-color: ivory;
     margin-bottom: -40px;
@@ -1008,7 +1008,7 @@
     height: 400px;
     width: 1050px;
     column-count: 2;
-    padding-top: 70px;
+    padding-top: 115px;
     margin: 0 auto;
 }
 
