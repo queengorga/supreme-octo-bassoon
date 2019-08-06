@@ -1224,21 +1224,25 @@ hr
 
 .quality-container
 {
-    column-count: 3;
     margin: 0 auto;
-    padding: 10px 80px;
+    padding: 2px 200px;
+}
+
+.quality-container ul {
+    display: inline-flex;
 }
 
 .quality-container li
 {
     list-style: none;
+    margin: 20px;
 }
 
 .quality-container img
 {
     height: 50px;
     width: 50px;
-    margin: 0 0 20px 255px;
+    margin: 0 0 20px 220px;
 }
 
 .quality-container h3
@@ -1270,11 +1274,11 @@ hr
 {
     height: 550px;
     width: 950px;
-    transform: translate(50%,30%);
-    -webkit-transform: translate(50%,30%);
-    -moz-transform: translate(50%,30%);
-    -ms-transform: translate(50%,30%);
-    -o-transform: translate(50%,30%);
+    transform: translate(50%,35%);
+    -webkit-transform: translate(50%,35%);
+    -moz-transform: translate(50%,35%);
+    -ms-transform: translate(50%,35%);
+    -o-transform: translate(50%,35%);
 }
 
 .about-container h1
@@ -1283,7 +1287,7 @@ hr
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    padding: 50px 0;
+    padding: 60px 0;
     margin-top: 175px;
 }
 
