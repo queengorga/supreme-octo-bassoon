@@ -1207,7 +1207,7 @@ hr
 .about-header h3
 {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
     font-weight: lighter;
     text-align: center;
@@ -1242,7 +1242,7 @@ hr
 {
     height: 50px;
     width: 50px;
-    margin: 0 0 20px 220px;
+    margin: 0 5px 5px 215px;
 }
 
 .quality-container h3
@@ -1257,7 +1257,7 @@ hr
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     text-align: justify;
-    padding: 14px;
+    padding: 25px;
 }
 
 /*Story Section*/
