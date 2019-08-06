@@ -1264,7 +1264,7 @@ hr
 
 .story
 {
-    height: 170vh;
+    height: 180vh;
     width: 100%;
     background-color: ivory;
     margin-bottom: -50px;
@@ -1288,7 +1288,7 @@ hr
     text-transform: uppercase;
     text-align: center;
     padding: 60px 0;
-    margin-top: 175px;
+    margin-top: 225px;
 }
 
 .about-container p 
